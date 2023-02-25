@@ -143,17 +143,7 @@ Then stored those words which are not a stopword or any English punctuation.
 
 * The best model was tuned to get a better result.
 
-* Lastly, we checked the model with real reviews and found the model is detecting the sentiments of the customer reviews properly.
-
-* Google Colab Notebook [here](https://colab.research.google.com/drive/1kblB-lavQTm9eRWlGQMwdKLKnE8hUymW?usp=sharing).
-
-# 5. Heroku Deployment
-
-Thanks to Krish Naik Sir Heroku deployment was very easy. I found his video and followed the steps. It would be more better to watch his video rather than explaining whole process and there are very few steps.
-
-Here is the [link](https://youtu.be/mrExsjcvF4o) of the video.
-
-# 6. Future Work
+# 5. Future Work
 
 There is always a scope of improvement. Here are a few things which can be considered to improve. 
 * Different classifier models can also be tested.
@@ -161,7 +151,7 @@ There is always a scope of improvement. Here are a few things which can be consi
 * Try a different data set. Sometimes a data set plays a crucial role too. 
 * Some other tuning parameters to improve the accuracy of the model.
 
-# 7. Conclusion
+# 6. Conclusion
 
 The motive of the model is to correctly detect the sentiments of the textual reviews or feedback. The developed model has an accuracy of 77.67% and successfully detects the sentiments of the textual reviews or feedback.
 The model has been tested with few of the online reviews and was found that it detects the sentiments correctly.
@@ -178,22 +168,3 @@ Thus, can conclude that the motive was successful and the model can be used to d
 * https://www.kingandprince.com/dining-guest-reviews.aspx
 * https://www.tripadvisor.in/Restaurant_Review-g1078423-d948529-Reviews-Martin_Berasategui-Lasarte_Province_of_Guipuzcoa_Basque_Country.html
 
-# Note
-
-* For requirement.txt you can use [pipreqs](https://github.com/bndr/pipreqs)
-* Don't forget to add gunicorn in the requirement.txt because it will give an error if you don't add
-# Contact me
-
-[Linkedln](https://www.linkedin.com/in/abhi7585/)
-[Twitter](https://twitter.com/the_abhi_7585)
-
-
-# Development and Credits
-
-Want to contribute? Great!
-Feel free to add any issues and pull request.
-
-Credits: 
-Heroku Deployement: @krishnaik06 Youtube Channel
-
-<h3 align="center">Show some &nbsp;❤️&nbsp; by starring this repo! </h3>
