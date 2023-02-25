@@ -129,7 +129,7 @@ The above results are very clear. That is why I chose Multinomial Naive Bayes an
 
 # 4. Work
 
-* The approach was straight forward. I have selected a few classifiers algorithms for my project. I chose restaurant reviews as my project title. Firstly I understood the working of the algorithm and read about them.
+* The approach was straight forward. I have selected a few classifiers algorithms for my project. I chose coffee shop reviews as my project title. Firstly I understood the working of the algorithm and read about them.
 
 * After gathering the data set from Kaggle. The first step was to process the data. In data processing, I used NLTK (Natural Language Toolkit) and cleared the unwanted words in my vector. I accepted only alphabets and converted it into lower case and split it in a list.
 Using the PorterStemmer method stem I shorten the lookup and Normalized the sentences.
@@ -143,25 +143,14 @@ Then stored those words which are not a stopword or any English punctuation.
 
 * The best model was tuned to get a better result.
 
-* Lastly, we checked the model with real reviews and found the model is detecting the sentiments of the customer reviews properly.
 
-* Google Colab Notebook [here](https://colab.research.google.com/drive/1kblB-lavQTm9eRWlGQMwdKLKnE8hUymW?usp=sharing).
+# 5. Future Work
 
-# 5. Heroku Deployment
-
-Thanks to Krish Naik Sir Heroku deployment was very easy. I found his video and followed the steps. It would be more better to watch his video rather than explaining whole process and there are very few steps.
-
-Here is the [link](https://youtu.be/mrExsjcvF4o) of the video.
-
-# 6. Future Work
-
-There is always a scope of improvement. Here are a few things which can be considered to improve. 
-* Different classifier models can also be tested.
-* The remaining two models can be tuned for better results. For example, after plotting. AUC in  Logistic Regression we may get better results.
-* Try a different data set. Sometimes a data set plays a crucial role too. 
+There need to be an improvement  in the output. 
+* Different classifier models can also be tested.. 
 * Some other tuning parameters to improve the accuracy of the model.
 
-# 7. Conclusion
+# 6. Conclusion
 
 The motive of the model is to correctly detect the sentiments of the textual reviews or feedback. The developed model has an accuracy of 77.67% and successfully detects the sentiments of the textual reviews or feedback.
 The model has been tested with few of the online reviews and was found that it detects the sentiments correctly.
